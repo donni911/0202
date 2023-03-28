@@ -1,0 +1,22 @@
+{
+  "user": {
+    "fullName": "Eva Jonson",
+    "position": "Sales Manager",
+    "quote": "I will find the best offers for you.  My services are absolutely free.",
+    "image": "avatar.png",
+    "services": [
+      {
+        "type": "Manual tour booking",
+        "amount": 11
+      },
+      {
+        "type": "Package tours",
+        "amount": 3
+      },
+      {
+        "type": "Hotels",
+        "amount": 1
+      }
+    ]
+  }
+}

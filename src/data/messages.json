@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "name": "Samuel Jackson",
+      "message": "Hey Eva! You're cool. Nice pic!",
+      "date": "13-04-2022"
+    },
+    {
+      "name": "Angela Deimon",
+      "message": "Thanks for your services! We really liked the ocean view room.  We hope to cooperate in the near future. We are sure you will do everything to make our next holiday fantastic.",
+      "date": "10-04-2022"
+    },
+    {
+      "name": "Ronald Harris",
+      "message": "Eva, hello! There is such a question: How can I contact you if I am abroad in roaming?",
+      "date": "8-04-2022"
+    }
+  ]
+}

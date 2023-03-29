@@ -1,8 +1,6 @@
 
 <template>
-  <div
-    class="w-full h-full py-5 px-4 md:w-[490px] md:h-[900px] border-2 overflow-hidden"
-  >
+  <div class="w-full h-full sm:w-[490px] border-2 overflow-hidden">
     <person-info :user="userInfo.user" />
     <chat />
   </div>
@@ -10,9 +8,11 @@
 
 <script>
 import user from "./data/user.json";
+import messages from "./data/messages.json";
 
 import PersonInfo from "./components/PersonInfo.vue";
 import Chat from "./components/Chat.vue";
+
 export default {
   components: {
     PersonInfo,
@@ -21,10 +21,13 @@ export default {
   data() {
     return {
       userInfo: user,
+      messagesData: messages,
     };
   },
-  mounted() {
-    console.log(this.userInfo);
+  provide() {
+    return {
+      messagesData: this.messagesData.messages,
+    };
   },
 };
 </script>

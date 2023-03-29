@@ -1,7 +1,9 @@
 <template>
-  <header class="flex">
-    <div class="w-[25%] mr-5">
-      <div class="relative rounded-full w-[124px] h-[124px]">
+  <header class="flex px-4 pt-5">
+    <div class="w-[30%] sm:w-[25%] mr-5">
+      <div
+        class="relative rounded-full w-[115px] h-[115px] sm:w-[124px] sm:h-[124px]"
+      >
         <img
           :src="computedImage"
           :alt="user.fullName"
@@ -9,7 +11,9 @@
         />
       </div>
     </div>
-    <div class="w-[75%] flex flex-col items-start justify-center z-0">
+    <div
+      class="w-[70%] sm:w-[75%] flex flex-col items-start justify-center z-0"
+    >
       <h1 class="text-base font-bold">{{ user.fullName }}</h1>
       <h4 class="text-sm text-[#808080]">{{ user.position }}</h4>
       <div
